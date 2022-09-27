@@ -2,12 +2,13 @@
     <html>
     <head>
       <meta charset='utf-8'>
-      <meta name='viewport' content='width=device-width'>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
       <title>Privacy Policy</title>
       <style>
           @import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
           body {
-            font-family: 'Tomorrow', Helvetica, Arial, sans-serif; padding:1em;
+            font-family: 'Tomorrow', Helvetica, Arial, sans-serif;
+            padding:1em;
             line-height: 200%;
             max-width: 780px;
             margin: 0 auto;
@@ -38,30 +39,79 @@
               height: 40px;
               border-radius: 0%;
           }
+          .header{
+              margin-top:50px;display: flex;
+          }
+          .titles{
+              margin-left: 20px;
+              margin-top: 0px;
+              width:100%;
+          }
+          hr{
+              border: 0;border-top: 1px solid #000;margin: 30px 0 10px 0;
+          }
+          @media only screen and (max-width: 500px) {
+              .ico{
+                  height: 70px;
+                  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+                  border-radius: 20%;
+                  display:block;
+                  margin: 0 auto;
+              }
+              .store{
+                  display:none;
+              }
+              .titles{
+                  margin-left: 0px;
+                  margin-top: 10px;
+              }
+              h1{
+                  font-size: 1.3em;
+                  margin: 0;
+                  text-align: center;
+              }
+              h3{
+                  font-size: 0.9em;
+                  margin: 0;
+                  text-align: center;
+              }
+              p{
+                  font-size: 0.8em;
+                  margin: 0;
+              }
+              .header{
+                  margin-top:10px;
+                  margin-bottom:10px;
+                  display: block;
+              }
+              hr{
+                  margin: 10px 0 10px 0;
+              }
+            }
       </style>
     </head>
     <body>
-        
-    <div style="margin-top:50px;display: flex;">
+       
+        <div class="header">
 
-        <img class="ico" src="https://9asso.github.io/published/lwb2.png" srcset="https://9asso.github.io/published/lwb2.png">
+            <img class="ico" src="https://9asso.github.io/published/lwb2.png" srcset="https://9asso.github.io/published/lwb2.png">
 
-        <div style="margin-left: 20px;width:100%;">
-            <h1>Gems for stumble-guyz Guide</h1>
-            <h3>Privacy Policy</h3>
+            <div class="titles">
+                <h1>Gems for stumble-guyz Guide</h1>
+                <h3>Privacy Policy</h3>
+            </div>
+
+            <div style="margin-left: 20px;align-self: center;">
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=ks.apps.gemsimada">
+                    <img class="store" src="https://img.icons8.com/fluency/80/000000/google-play.png">
+                </a>
+            </div>
+
         </div>
         
-        <div style="margin-left: 20px;align-self: center;">
-            <a target="_blank" href="https://play.google.com/store/apps/details?id=ks.apps.gemsimada">
-                <img class="store" src="https://img.icons8.com/fluency/80/000000/google-play.png">
-            </a>
-        </div>
-
-    </div>
+        <hr/>
         
-        <hr style="border: 0;border-top: 1px solid #000;margin: 30px 0 10px 0;">
-        
-                <p>
+        <p>
                   carleton studio built the Gems for stumble-guyz Guide app as
                   a Free app. This SERVICE is provided by
                   carleton studio at no cost and is intended for use as
@@ -159,6 +209,7 @@
                   If you have any questions or suggestions about my
                   Privacy Policy, do not hesitate to contact me at elabidhasnae@gmail.com.
                 </p>
+        
     </body>
     </html>
       
